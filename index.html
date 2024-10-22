@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peter's Quizzduell</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <h1>Peter's Quizzduell</h1>
+
+    <div id="start-screen">
+        <label for="playerCount">Spieler:</label>
+        <br>
+        <select id="playerCount">
+            <!-- Optionen für bis zu 12 Spieler -->
+            <option value="0">Anzahl auswählen</option>           
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+        </select>
+        <div id="playerCountLabel"></div>
+        <div id="playerNames">
+            <!-- Eingabefelder für Spielernamen -->
+        </div>
+        <button id="startGame">Spiel starten</button>
+    </div>
+
+    <script src="home.js"></script>
+</body>
+</html>

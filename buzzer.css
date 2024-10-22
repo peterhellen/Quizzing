@@ -1,0 +1,41 @@
+/* Allgemeine Layout-Einstellungen */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+/* Container für den Button */
+.container {
+    text-align: center;
+}
+
+/* Stil für den Buzzer-Button */
+.buzzer {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 50%; /* Macht den Button rund */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 150px; /* Breite des Kreises */
+    height: 150px; /* Höhe des Kreises */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buzzer:active, .buzzer.clicked {
+    background-color: #dc3545;
+}
+
+.buzzer.clicked {
+    pointer-events: none; /* Deaktiviert den Button nach dem Klicken */
+}

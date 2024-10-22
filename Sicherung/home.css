@@ -1,0 +1,90 @@
+/* home.css */
+body {
+    background-image: url('Hintergrundsbild-Quizzduell.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 40px; /* Etwas mehr Abstand nach unten */
+}
+
+#start-screen {
+    background-color: rgba(0, 0, 0, 0.7); /* Leicht transparente schwarze Box */
+    padding: 30px; /* Padding bleibt gleich */
+    border-radius: 15px;
+    text-align: center;
+    width: 60%;
+    max-width: 800px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 20px; /* Schriftgröße bleibt gleich */
+    margin-bottom: 10px;
+    width: 100%; /* Breite auf 100% des Containers */
+    text-align: left; /* Text linksbündig */
+}
+
+select {
+    background-color: rgba(0, 0, 0, 0.7); /* Leicht transparente schwarze Box */    
+font-size: 18px; /* Schriftgröße etwas reduziert */
+    padding: 8px; /* Padding leicht reduziert */
+    margin-bottom: 20px; /* Etwas mehr Abstand nach unten */
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: white;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+select:hover {
+    background-color: #f0f0f0;  
+}
+
+#playerCountLabel {
+    font-size: 20px; /* Größe der Spieleranzahl-Anzeige bleibt gleich */
+    margin-bottom: 15px; /* Abstand nach unten */
+}
+
+.player-input {
+    font-size: 18px; /* Schriftgröße leicht angepasst */
+    padding: 10px; /* Padding bleibt gleich */
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box; /* Padding in die Breite einbeziehen */
+}
+
+button {
+    font-size: 24px; /* Schriftgröße leicht erhöht */
+    padding: 15px 30px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Buttonbreite an den Container angepasst */
+    margin-top: 20px; /* Mehr Abstand nach oben */
+}
+
+button:hover {
+    background-color: #0056b3;
+}

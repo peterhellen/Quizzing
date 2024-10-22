@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peter's Quizzduell</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <div id="player-display" class="player-grid">
+        <!-- The player-score elements will be inserted here by JavaScript -->
+    </div>
+    
+    <!-- Bereich für Kategorien -->
+    <div id="categories">
+        <!-- Kategorien werden hier dynamisch durch JavaScript eingefügt -->
+    </div>
+
+    <!-- Bereich für Fragen -->
+    <div id="questions">
+        <!-- Fragen werden hier dynamisch durch JavaScript eingefügt -->
+    </div>
+
+    <!-- Modales Fenster -->
+    <div id="modal" class="modal">
+        <div id="modal-content" class="modal-content">
+            <div class="category-points">
+                <span id="category"></span>
+                <span id="points"></span>
+            </div>
+            <p class="question-text" id="question"></p>
+            <div id="tip" style="display: none;"></div>
+            <div id="options" style="display: none;"></div>
+            <div id="answer" style="display: none;"></div>
+            <!-- Buttons für Tipp, Auswahl und Antwort -->
+            <button id="showTip">Tipp</button>
+            <button id="showOptions">Auswahl</button>
+            <button id="showAnswer">Antwort anzeigen</button>
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
